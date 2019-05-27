@@ -1,0 +1,17 @@
+example:
+  messages:
+    admin-join: "&4Congratulations, Example Addon is working!"
+    player-join: "&5Welcome [name] to server! This is Example Addon."
+
+    vault-hook-enabled: "VaultHook found!"
+    level-addon-found: "Level addon found!"
+
+    balance-and-level: "Your level is [level] and bank account has [balance]!"
+
+  warnings:
+    vault-hook-disabled: "&4VaultHook not found!"
+    level-addon-not-found: "&4Level addon not found!"
+
+  translation:
+    missing-vault: "[missing Vault plugin]"
+    missing-level: "[missing Level addon]"

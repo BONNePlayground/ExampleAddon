@@ -1,0 +1,47 @@
+# Name of your addon that wil lbe used in displaying it.
+name: ExampleAddon
+# Addon main class. This class should extend Addon.class
+main: world.bentobox.example.ExampleAddon
+# Version of your addon. Can use maven variables.
+version: ${version}
+# Allow to send metric about this addon usage.
+metrics: true
+# GitHub version check. Will work only for GitHub.
+repository: 'BentoBoxWorld/ExampleAddon'
+# Icon of addon that will be displayed in Addon Manager.
+# Must use Material.values() with uppercase.
+icon: 'WHITE_BANNER'
+
+# List of addon authors.
+authors:
+  - BONNe
+
+# Soft dependencies of current addon.
+softdepend: AcidIsland, BSkyBlock, CaveBlock, SkyGrid, Level
+
+# List of addon permissions
+permissions:
+  bskyblock.example:
+    description: Let the player use the '/island example' command
+    default: true
+  bskyblock.admin.example:
+    description: Let the admin use the '/bsb example' command
+    default: op
+  acidisland.example:
+    description: Let the player use the '/ai example' command
+    default: true
+  acidisland.admin.example:
+    description: Let the admin use the '/acid example' command
+    default: op
+  caveblock.example:
+    description: Let the player use the '/cave example' command
+    default: true
+  caveblock.admin.example:
+    description: Let the admin use the '/cba example' command
+    default: op
+  skygrid.example:
+    description: Let the player use the '/skygrid example' command
+    default: true
+  skygrid.admin.example:
+    description: Let the admin use the '/sba example' command
+    default: op
