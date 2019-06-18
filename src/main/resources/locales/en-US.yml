@@ -15,3 +15,8 @@ example:
   translation:
     missing-vault: "[missing Vault plugin]"
     missing-level: "[missing Level addon]"
+
+  user-button:
+    name: "Simple Button"
+    description: "On click this button|will send message to|player"
+    action: "You clicked on Simple Button"
