@@ -9,6 +9,8 @@ This is Example Addon that shows some usefull features that BentoBox api offers.
 1. Place the addon jar in the addons folder of the BentoBox plugin
 2. Restart the server
 3. In game you can change flags that allows to use current addon.
+ 
+This Code is a bit outdated and bentobox privde much more functionality now.
 
 ## Compatibility
 
